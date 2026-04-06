@@ -1,10 +1,9 @@
+import FirstPage from "./pages/FirstPage";
 
 function App() {
   return (
-    <>
-    <h2 className="font-fustat-medium text-[32px] fixed top-13.25 left-41.75">Note: Hover the component to view the animation & Click the arrow icon</h2>
-    </>
-  )
+    <FirstPage />
+  );
 }
 
-export default App
+export default App;

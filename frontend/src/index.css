@@ -3,31 +3,65 @@
 @font-face {
   font-family: 'Fustat-Medium';
   src: url('./assets/fonts/Fustat-Medium.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Outfit-Medium';
   src: url('./assets/fonts/Outfit-Medium.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Outfit';
   src: url('./assets/fonts/Outfit-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Nohemi-Bold';
   src: url('./assets/fonts/Nohemi-Bold.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
+
 @theme {
   --font-fustat-medium: "Fustat-Medium", sans-serif;
   --font-Outfit-medium: "Outfit-Medium", sans-serif;
   --font-Outfit: "Outfit", sans-serif;
-  --font-Nohemi-bold: "Nohemmi-Bold", sans-serif;
+  --font-Nohemi-bold: "Nohemi-Bold", sans-serif;
+  --color-dark-green: #1DA077;
+  --color-background-red: #F45B5B;
+  --color-background-dark-cyan: #5492A0;
+  --color-background-purple:#6C64A8;
+  --color-background-brown: #A88964;
+  --animate-float-image: float-image 2s ease-in-out infinite;
+  --animate-float-card: float-card 2s ease-in-out infinite;
+
+  @keyframes float-image {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes float-card {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-1px);
+    }
+  }
 }
