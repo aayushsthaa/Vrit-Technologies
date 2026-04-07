@@ -31,7 +31,7 @@ function FirstPage() {
             <div className={`flex items-center rounded-[30px] w-full h-full bg-background-red relative overflow-visible animate-float-card transition-all duration-700 ease-in-out ${isFirstCardHovered ? 'translate-x-[-140%] opacity-0 scale-90 pointer-events-none' : 'translate-x-0 opacity-100'}`}>
               <div className="absolute -bottom-6.75 -left-12.25 w-59.25 h-84.5 animate-float-image">
                 <img
-                  src="./images/boy-think.svg"
+                  src="/images/boy-think.svg"
                   alt="boy-thinking"
                   className="w-full h-full object-contain drop-shadow-2xl"
                 />
@@ -61,7 +61,7 @@ function FirstPage() {
               <div className={`w-20 h-20 absolute -right-5 rounded-l-full bg-white transition-opacity ${isFirstCardHovered ? 'opacity-100 duration-300 delay-[50ms]' : 'opacity-0 duration-300 delay-0'}`}></div>
               <div className="absolute -left-3.25 top-1/2 -translate-y-1/2 w-15.5 h-15.5 drop-shadow-md drop-shadow-gray-400">
                 <img
-                  src="./images/arrow-left.svg"
+                  src="/images/arrow-left.svg"
                   alt="arrow-left"
                   className="w-full h-full object-cover"
                 />
@@ -69,12 +69,12 @@ function FirstPage() {
               <div className="flex w-full items-center gap-4 relative">
                 <div className="w-88 object-contain h-80.75 relative">
                   <img
-                    src="./images/image 2.png"
+                    src="/images/image 2.png"
                     alt="boy"
                     className="w-full h-full relative z-10"
                   />
                   <img
-                    src="./images/image 2.png"
+                    src="/images/image 2.png"
                     alt="shadow"
                     className="absolute bottom-0 left-3 z-0"
                     style={{ filter: "brightness(0)" }}
@@ -82,14 +82,14 @@ function FirstPage() {
                 </div>
                 <div className="absolute top-6 left-4 object-contain">
                   <img
-                    src="./images/wow.png"
+                    src="/images/wow.png"
                     alt="wow"
                     className="w-full h-full"
                   />
                 </div>
                 <div className="absolute bottom-6.5 right-15.5 object-contain scale-x-[-1] rotate-20">
                   <img
-                    src="./images/wow.png"
+                    src="/images/wow.png"
                     alt="wow"
                     className="w-full h-full"
                   />
@@ -102,7 +102,7 @@ function FirstPage() {
               </div>
               <div className="absolute -right-3.25 top-1/2 -translate-y-1/2 w-15.5 h-15.5 drop-shadow-md drop-shadow-gray-400">
                 <img
-                  src="./images/arrow-right.svg"
+                  src="/images/arrow-right.svg"
                   alt="arrow-right"
                   className="w-full h-full object-cover"
                 />
@@ -120,7 +120,7 @@ function FirstPage() {
             {/* Main card */}
             <div className={`flex items-center rounded-[30px] w-full h-full bg-background-dark-cyan relative overflow-visible transition-all duration-700 ease-in-out ${isSecondCardHovered ? 'translate-x-[140%] opacity-0 scale-90 pointer-events-none' : 'translate-x-0 opacity-100'}`}>
               <div className="absolute -bottom-11.5 right-8 w-45 h-91.75 animate-float-image">
-                <img src="./images/boy-reading.svg" alt="boy" className="w-full h-full object-contain drop-shadow-2xl" />
+                <img src="/images/boy-reading.svg" alt="boy" className="w-full h-full object-contain drop-shadow-2xl" />
               </div>
               <div className="absolute top-1/2 -translate-y-1/2 left-8.75 flex flex-col gap-8 text-white text-left">
                 <div className="flex flex-col gap-2.5 items-start">
@@ -137,7 +137,7 @@ function FirstPage() {
               
               {/* Left Arrow */}
               <div className="absolute -left-3.25 top-1/2 -translate-y-1/2 w-15.5 h-15.5 drop-shadow-md drop-shadow-gray-400 cursor-pointer z-30" onClick={() => setSecondCardActiveIndex(secondCardActiveIndex === 0 ? 1 : 0)}>
-                <img src="./images/arrow-left.svg" alt="arrow" className="w-full h-full object-cover" />
+                <img src="/images/arrow-left.svg" alt="arrow" className="w-full h-full object-cover" />
               </div>
               <div className="relative w-full h-full flex items-center">
                 {/* Switcher A */}
@@ -149,7 +149,7 @@ function FirstPage() {
                   </div>
                   <div className="w-143 object-contain h-82.25 absolute -bottom-2">
                     <img
-                      src="./images/2.png"
+                      src="/images/2.png"
                       alt="boy"
                       className="w-full h-full object-contain"
                     />
@@ -165,7 +165,7 @@ function FirstPage() {
                    </div>
                    <div className="w-143 object-contain h-82.25 absolute -bottom-2 left-1/2 -translate-x-1/2">
                      <img
-                       src="./images/group-photo.png"
+                       src="/images/group-photo.png"
                        alt="group-photo"
                        className="w-full h-full object-contain"
                      />
@@ -175,7 +175,7 @@ function FirstPage() {
 
               {/* Right Arrow */}
               <div className="absolute -right-3.25 top-1/2 -translate-y-1/2 w-15.5 h-15.5 drop-shadow-md drop-shadow-gray-400 cursor-pointer z-30" onClick={() => setSecondCardActiveIndex(secondCardActiveIndex === 0 ? 1 : 0)}>
-                <img src="./images/arrow-right.svg" alt="arrow" className="w-full h-full object-cover" />
+                <img src="/images/arrow-right.svg" alt="arrow" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ function FirstPage() {
           <div className="flex items-center rounded-[30px] w-148 h-85.25 bg-background-purple relative overflow-visible animate-float-card">
             <div className="absolute -bottom-6.75 -left-12 w-76.75 h-62.25 animate-float-image">
               <img
-                src="./images/girl-headphone.svg"
+                src="/images/girl-headphone.svg"
                 alt="girl-headphone"
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
@@ -210,7 +210,7 @@ function FirstPage() {
           <div className="flex items-center rounded-[30px] w-148 h-85.25 bg-background-brown relative overflow-visible animate-float-card">
             <div className="absolute -bottom-6.75 -right-12 w=70 h-77.5 animate-float-image rotate-6">
               <img
-                src="./images/boy-laptop.svg"
+                src="/images/boy-laptop.svg"
                 alt="boy-laptop"
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
