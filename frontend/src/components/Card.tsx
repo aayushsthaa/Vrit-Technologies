@@ -8,10 +8,10 @@ interface CardProps {
 
 const Card = ({ number, title, paragraph, isActive, onClick }: CardProps) => {
   const icons = [
-    "./src/assets/images/react.png",
-    "./src/assets/images/like.png",
-    "./src/assets/images/vue.png",
-    "./src/assets/images/pen.png",
+    "./images/react.png",
+    "./images/like.png",
+    "./images/vue.png",
+    "./images/pen.png",
   ];
 
   return (
