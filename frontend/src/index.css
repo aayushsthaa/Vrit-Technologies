@@ -36,8 +36,10 @@
   --color-dark-green: #1DA077;
   --color-background-red: #F45B5B;
   --color-background-dark-cyan: #5492A0;
-  --color-background-purple:#6C64A8;
+  --color-background-purple: #6C64A8;
   --color-background-brown: #A88964;
+  --color-secondary: #C33241;
+  --color-pink-card: #F9EBEC;
   --animate-float-image: float-image 2s ease-in-out infinite;
   --animate-float-card: float-card 2s ease-in-out infinite;
 

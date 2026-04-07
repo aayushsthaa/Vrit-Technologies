@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function FirstPage() {
   const [isFirstCardHovered, setIsFirstCardHovered] = useState(false);
@@ -36,7 +36,7 @@ function FirstPage() {
                   className="w-full h-full object-contain drop-shadow-2xl"
                 />
               </div>
-              <div className="absolute bottom-14.5 left-51.5 right-8.75 flex flex-col gap-8 text-white text-right">
+              <div className="absolute top-1/2 -translate-y-1/2 left-51.5 right-8.75 flex flex-col gap-8 text-white text-right">
                 <div className="flex flex-col gap-2.5 items-end">
                   <h2 className="font-Nohemi-bold font-bold text-[32px]">
                     Start with Clarity
@@ -122,12 +122,12 @@ function FirstPage() {
               <div className="absolute -bottom-11.5 right-8 w-45 h-91.75 animate-float-image">
                 <img src="./src/assets/images/boy-reading.svg" alt="boy" className="w-full h-full object-contain drop-shadow-2xl" />
               </div>
-              <div className="absolute top-14.5 left-8.75 flex flex-col gap-8 text-white text-left">
+              <div className="absolute top-1/2 -translate-y-1/2 left-8.75 flex flex-col gap-8 text-white text-left">
                 <div className="flex flex-col gap-2.5 items-start">
                   <h2 className="font-Nohemi-bold font-bold text-[32px]">Learn by Doing</h2>
                   <p className="font-Outfit-medium font-medium text-[24px]">Practical skills, real projects.</p>
                 </div>
-                <p className="font-Outfit text-[18px] w-88">Theory is great, but action is better. At SkillShikshya, you learn by doing. Hands-on projects help you build mastery.</p>
+                <p className="font-Outfit text-[18px] leading-none w-88">Theory is great, but action is better. At SkillShikshya, you learn by doing. Hands-on projects and real-world scenarios help you build, break, and create—leading to true mastery.</p>
               </div>
             </div>
             {/* inside card */}
@@ -189,7 +189,7 @@ function FirstPage() {
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
             </div>
-            <div className="absolute bottom-14.5 right-8.75 flex flex-col gap-8 text-white text-right w-104.25">
+            <div className="absolute top-1/2 -translate-y-1/2 right-8.75 flex flex-col gap-8 text-white text-right w-104.25">
               <div className="w-full">
                 <h2 className="font-Nohemi-bold font-bold text-[32px] ">
                   Get Mentored & Supported
@@ -215,7 +215,7 @@ function FirstPage() {
                 className="w-full h-full object-contain drop-shadow-2xl"
               />
             </div>
-            <div className="absolute bottom-14.5 left-8.75 flex flex-col gap-8 text-white text-left w-104.25">
+            <div className="absolute top-1/2 -translate-y-1/2 left-8.75 flex flex-col gap-8 text-white text-left w-104.25">
               <div className="w-full">
                 <h2 className="font-Nohemi-bold font-bold text-[32px] ">
                   Achieve & Showcase
